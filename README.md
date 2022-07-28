@@ -1,2 +1,3 @@
 # Full Stack JavaScirpt
- Estou fazendo um curso, e estou postanto o meu progresso
+ Estou fazendo um curso Full Stack, e estou postando meu progresso
+]
