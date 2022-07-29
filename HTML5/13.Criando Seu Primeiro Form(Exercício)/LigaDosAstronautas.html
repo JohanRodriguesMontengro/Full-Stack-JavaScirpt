@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h3>
+        Cadastro da liga dos astronautas
+    </h3>
+    <form action="">
+        <label for="Name">Nome:</label>
+        <input type="Name" name="Name" id="Name" required>
+        <br>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="Email" name="Email" id="Email" required> -
+        <label for="Password">Password:</label>
+        <input type="Password" name="Password" id="Password" required>
+        <br>
+        <br>
+        <label for="Date">Data de Nascimento:</label>
+        <input type="Date" name="Date" id="Date" required> -
+        <label for="File">Foto:</label>
+        <input type="File" name="File" id="File" required>
+        <br>
+        <br>
+        <label for="Nacional">Nacionalidade:</label>
+        <select name="Nacional" id="Nacional">
+            <option value="Russia">Russia</option>
+            <option value="Brasileiro">Brasil</option>
+            <option value="Americano">Americano</option>
+        </select> -
+        <label for="Gener">Gênero:</label>
+        <input type="radio" name="Male" id="Male"> Masculino <input  type="radio" name="Female" id="Female"> Female 
+        
+        <br>
+        <br>
+        <label for="Quality">Suas principais qualidade:</label>
+        <br>
+        <input type="checkbox" name="Quality" id="Quality"> Inteligência |
+        <input type="checkbox" name="Quality" id="Quality"> Resiliência |
+        <input type="checkbox" name="Quality" id="Quality"> Preparo Físico |
+        <input type="checkbox" name="Quality" id="Quality"> Educação |
+        <br>
+        <br>
+        <textarea name="Area" id="Area" cols="30" rows="10">Por que você gostaria de ser um astronauta?</textarea>
+        <br>
+        <br>
+        <input type="submit" value="Criar">
+    </form>
+</body>
+</html>
