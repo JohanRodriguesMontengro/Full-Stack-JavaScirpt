@@ -1,0 +1,16 @@
+p {
+    font-family: 'Geostar','Montserrat Alternates', 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+}
+h1 {
+    font-family: 'Geostar';
+    /* margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -20px; */
+    margin: 30px auto -20px auto;
+    width: 20%;
+    border: 2px solid;
+    padding: 20px 10px 20px 40px;
+}

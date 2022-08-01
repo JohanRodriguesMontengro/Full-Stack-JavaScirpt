@@ -1,0 +1,19 @@
+body {
+    background-color: #2c3e50;
+}
+h1 {
+    color: White;
+}
+h4 {
+    color: #f1c40f;
+}
+.text-white {
+    color: white;
+}
+h2 {
+    border: 2.5px solid black;
+    background-color: #f1c40f;
+}
+.text-red {
+    color: #e74c3c;
+}

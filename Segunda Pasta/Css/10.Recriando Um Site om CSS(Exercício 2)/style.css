@@ -1,0 +1,22 @@
+.date {
+    font-family: 'Roboto';
+    color: #008080;
+    margin-left: 150px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    margin-left: 150px;
+}
+.content {
+    font-family: 'Open Sans';
+    margin-left: 150px;
+    margin-right: 150px;
+}
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+body {
+    background-color: #e8eee8
+}

@@ -1,0 +1,15 @@
+h1 {
+    color: purple;
+    border-color: yellowgreen;
+    border-width: 1.5px;
+    border-style: solid;
+}
+li {
+    color: green;
+    border: 1.5px dashed orange;
+}
+body {
+    background-image: url(https://spacetoday.com.br/wp-content/uploads/2019/08/f9_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

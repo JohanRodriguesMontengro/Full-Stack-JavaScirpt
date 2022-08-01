@@ -1,0 +1,20 @@
+.moon {
+    color: orange;
+    font-size: 20px;
+}
+.yellow-text {
+    color: yellow;
+    font-size: 15px;
+}
+.big-text {
+    color:aqua;
+    font-size: 60px;
+}
+#Europa-text {
+    color: purple;
+    font-size: 70px;
+}
+li {
+    font-size: 20px;
+    color: green;
+}
