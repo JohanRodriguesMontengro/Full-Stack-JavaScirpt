@@ -17,7 +17,7 @@ switch (ChosenOption) {
         break;
     case '3':
         let Quilômetros = ' Quilômetros'
-        let QuilômetrosConvertedToLightyears = 9.5 * Math.pow(10,12) * DistanceLightYear
+        let QuilômetrosConvertedToLightyears = DistanceLightYear * 9.5 * Math.pow(10, 12)
         alert('Distância digitada em anos-luz ' + DistanceLightYear + ', a conversão desejada foi' + Quilômetros + '. E a distância convertida foi de ' + QuilômetrosConvertedToLightyears + Quilômetros)
         break;
     default:
