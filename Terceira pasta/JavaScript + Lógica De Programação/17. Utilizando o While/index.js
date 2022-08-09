@@ -1,4 +1,4 @@
-let NaveNome = prompt('Qual é o nome da nave?')
+let NaveNome = prompt('Informe qual é o nome da nave?')
 let DobraEspacial = 0
 let Continuar = "1"
 
