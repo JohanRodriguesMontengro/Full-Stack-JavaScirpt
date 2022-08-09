@@ -8,7 +8,6 @@ let ship = {
     alert(`Acelerando mais 5km/s de velocidade!`)
     return ship.velocity += 5
   }
-  
   function speedDown() {
     if (velocity <= 0) {
       alert(`Você está parado, não é possível desacelerar!`)
