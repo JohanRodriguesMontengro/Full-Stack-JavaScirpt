@@ -25,7 +25,7 @@ function exit() {
 }
 do{
     chosenOption = prompt(
-    `Escolha uma opção\n1 - Acelerar a nave em 5 km/h\n2 - Desacelerar a nave em 5 km/h\n3 - Imprimir dados de bordo\n4 - Sair do programa\n\nVelocidade atual: ${ship.velocity}`)
+    `Escolha uma opção\n1 - Acelerar a nave em 5 km/h\n2 - Desacelerar a nave em 5 km/h\n3 - Imprimir dados de bordo\n4- Sair do programa\n\nVelocidade atual: ${ship.velocity}`)
 
     switch (chosenOption) {
     case '1':
@@ -41,7 +41,7 @@ do{
         exit()
         break;
     default:
-      alert(`Escolha uma opção valida!`)
+      alert(`Escolha uma opção disponível!`)
       break;
   }
 }while (chosenOption != 4);
