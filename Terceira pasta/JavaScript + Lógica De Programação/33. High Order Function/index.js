@@ -48,7 +48,7 @@ function authenticator(person) {
 }
 
 function dance(person) {
-    return console.log('lalalalalaala dancing')
+    return console.log('lalalalalalala dancing')
 }
 
 function letPerson(person, fn) { // Controlar os dados que estão sendo passados
