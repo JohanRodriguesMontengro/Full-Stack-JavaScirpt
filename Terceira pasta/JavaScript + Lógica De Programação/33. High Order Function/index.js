@@ -39,21 +39,25 @@ letAdminLogin('Jorge')
 
 const giveAccess = (name) => console.log(`Acesso garantido ao ${name}`)
 
-function authenticator(verify) {
+function authenticator(person) {
     let array =  []
-    for(let i = 0; i < verify; i++) {
+    for(let i = 0; i < person; i++) {
         array.push(i)
     }
-    return true
+    return giveAccess(person.name)
+}
+
+function dance(person) {
+    return console.log('lalalalalaala dancing')
 }
 
 function letPerson(person, fn) { // Controlar os dados que estão sendo passados
      if(person.level === 'admin') {
-        fn(5000000)
+        return fn(person)
      } else if (person.level === 'user') {
-        fn(1000000)
+        return fn(person)
      }
-    return giveAccess(person.name)
+    return 
 }
 
-letPerson({level: 'admin', name: 'Adam'}, authenticator)
+letPerson({level: 'admin', name: 'Adam'}, dance)
