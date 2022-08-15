@@ -25,6 +25,12 @@
         text-align: center;
     }
 } */
+@media (max-width: 2560px) and (min-width: 1440px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
 @media (max-width: 790px) {
     .img-content {
         width: 90%;
