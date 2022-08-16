@@ -1,44 +1,36 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.header {
-    background-color: black;
+.container {
+    background-color: darkgray;
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    gap: 0px 15px;
+    justify-content: center;
     align-items: center;
-    padding: 10px 25px;
+    flex-direction: column ;
+    /* flex-wrap: wrap; */
 }
-.icon-rock {
-    width: 40px;
-}
-.icon-onebitcode {
-    width: 200px;
-}
-.buttons {
-    display: flex;
-    gap: 10px;
-}
-.buttonHeader {
+.item {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
     font-size: 20px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    background-color: transparent;
-    border-color: white;
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 200px;
+    flex-grow: 1; */
 }
-.buttonHeader:hover {
-    border-color: #ff0044 ;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+item1{
+    /* flex-shrink: 2; */
+}
+item2{
+
+}
+item3{
+    
 }
