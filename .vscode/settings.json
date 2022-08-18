@@ -49,5 +49,6 @@
         "unupdate",
         "YYYYDDD",
         "YYYYYYMMDD"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
