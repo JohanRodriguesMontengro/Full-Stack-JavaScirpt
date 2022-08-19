@@ -6,9 +6,14 @@
 .container {
     background-color: darkgray;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 10px 15px;
+    grid-auto-rows: minmax(auto, 100%);
 }
 .item {
     border: 2px solid black;
     background-color: white;
-    font-size: 2.5em;
+    font-size: 30px;
+    padding: auto;
 }
