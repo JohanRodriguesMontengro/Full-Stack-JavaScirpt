@@ -1,0 +1,24 @@
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+
+    // &.btnPurple{
+    //     background-color: purple;
+    //     color: white;
+    // }
+    &.btnYellow{
+        background-color: Yellow;
+    }
+    &#btnBlue{
+        background-color: Blue;
+        color: white;
+    }
+}
+.btnPurple {
+    @extend .btn;
+    background-color: purple;
+    color: white;
+}
