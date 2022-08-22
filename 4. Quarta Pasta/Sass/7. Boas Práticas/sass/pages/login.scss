@@ -1,0 +1,5 @@
+.container{
+    p{
+        @include text-style($secondary-color, 35px, 'Roboto')
+    }
+}
