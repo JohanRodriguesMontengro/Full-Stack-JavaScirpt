@@ -1,0 +1,21 @@
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+$primary-color: #ff4043;
+
+.texts {
+    h1{
+        // color: #ff4043;
+        // font-size: 34px;
+        // font-family: 'Courier New', Courier, monospace;
+        @include text-style($primary-color, 34px, Arial);
+    }
+    p{
+        // color: blue;
+        // font-size: 18px;
+        // font-family: cursive, Arial;
+        @include text-style(blue, 18px, sans-serif);
+    }
+}
