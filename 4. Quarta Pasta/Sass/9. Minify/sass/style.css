@@ -1,1 +1,26 @@
-#title-home{font-size:44px;font-family:Roboto}.btn{width:95px;padding:10px 0;cursor:pointer;background-color:#040174;color:#fff;display:block;margin-top:10px}#cadastro-text{color:red;font-size:22px;font-family:Roboto}.container p{color:#00f;font-size:35px;font-family:Roboto}
+#title-home {
+  font-size: 44px;
+  font-family: "Roboto";
+}
+
+.btn {
+  width: 95px;
+  padding: 10px 0px;
+  cursor: pointer;
+  background-color: #040174;
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+#cadastro-text {
+  color: red;
+  font-size: 22px;
+  font-family: "Roboto";
+}
+
+.container p {
+  color: blue;
+  font-size: 35px;
+  font-family: "Roboto";
+}/*# sourceMappingURL=style.css.map */
