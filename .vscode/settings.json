@@ -69,5 +69,13 @@
         "YYYYYYMMDD"
     ],
     "liveServer.settings.port": 5501,
-    "cSpell.language": "en,pt,pt-BR"
+    "cSpell.language": "en,pt,pt-BR",
+    "coffeebreak.emails": [
+        "ti.johan@ti7.com.br"
+    ],
+    "coffeebreak.mentions": {
+        "Johan": {
+            "email": "ti.johan@ti7.com.br"
+        }
+    }
 }
