@@ -1,0 +1,23 @@
+body {
+  background-image: url("../imgs/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+div .card-imgs {
+  margin-left: 350px;
+  background-color: #161515;
+}
+
+div .titulo-card {
+  margin-right: 350px;
+}
+
+div #3 {
+  margin-right: 0px;
+}
+
+div .pergunta-card {
+  margin-left: 100px;
+}
