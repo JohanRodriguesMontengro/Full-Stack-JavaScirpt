@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +9,72 @@
 </head>
 <body>
     <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width: 500px; margin: 0 auto; margin-top: 60px;">
+            <div class="carousel-inner" data-bs-interval="1000">
+              <div class="carousel-item active">
+                <img src="./imgs/img-03-Planet-Mercury.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imgs/img-02-Solar-System.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imgs/img-01-Space.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="width: 500px; margin: 0 auto; margin-top: 60px;">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./imgs/img-01-Space.png" class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="100000000000">
+                    <img src="./imgs/img-06-Planet-Mars.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="./imgs/img-02-Solar-System.png" class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="100000000000">
+                    <img src="./imgs/img-05-Planet-Earth.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="./imgs/img-03-Planet-Mercury.png" class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="100000000000">
+                    <img src="./imgs/img-04-Planet-Venus.png" class="d-block w-100" alt="...">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Proximo</span>
+            </button>
         </div>
+        <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel" style="width: 700px; margin: 0 auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./imgs/img-01-Space.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imgs/img-07-Planet-Jupyter.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imgs/img-08-Planet-Saturn.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Proximo</span>
+                </button>
+            </div>
     </div>
-
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
