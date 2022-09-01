@@ -78,5 +78,8 @@
         "Johan": {
             "email": "ti.johan@ti7.com.br"
         }
+    },
+    "coffeebreak.sync": {
+        "command": "coffeebreak.syncDisabled"
     }
 }

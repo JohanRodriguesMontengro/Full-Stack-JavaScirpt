@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Spy</title>
+    <link rel="stylesheet" href="/5. Quinta Pasta/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-3">
+                <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#item-1">Item 1</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                        </nav>
+                        <a class="nav-link" href="#item-2">Item 2</a>
+                        <a class="nav-link" href="#item-3">Item 3</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                        </nav>
+                        <a class="nav-link" href="#item-4">Item 4</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-4-1">Item 4-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-4-2">Item 4-2</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" class="col scrollSpy">
+                <h4 id="item-1">Item 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo tempore vero! Quae facilis sunt temporibus quis cupiditate optio est laudantium maxime tenetur modi quas, possimus quam consequatur dolore laboriosam architecto harum ad assumenda nam iusto. Porro ex harum nobis est quae ducimus, quaerat quidem ullam molestias maiores neque perferendis delectus repellendus laboriosam architecto voluptatem eum ipsam reiciendis officia necessitatibus ipsa natus distinctio deleniti odio. Dicta cupiditate rerum explicabo id culpa repellendus tempore voluptatibus animi saepe esse ad debitis quo nisi fugiat architecto quis quas qui eligendi dolorem sunt illum perferendis, mollitia expedita. Tempora pariatur consequatur exercitationem quis unde dignissimos?</p>
+                <h5 id="item-1-1">Item 1-1</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab animi omnis repudiandae magni earum enim porro quod. Quaerat modi molestiae ratione, numquam non tempora officia eveniet quibusdam atque ipsum? Quam dolores commodi iste assumenda facilis, reprehenderit a minima, labore illo saepe corrupti? Nostrum similique rem incidunt tempore, rerum eaque mollitia distinctio doloribus explicabo corrupti debitis natus iusto quo placeat iste quia voluptatibus sunt expedita ea. Voluptatum ut enim quisquam provident dignissimos sit commodi fugit nostrum laudantium obcaecati delectus perspiciatis, quia recusandae ipsum? Temporibus nam cumque, quia maiores quidem odio quae incidunt facere veritatis labore, possimus nulla, magnam delectus est?</p>
+                <h5 id="item-1-2">Item 1-2</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut at similique enim sit autem corrupti asperiores sed aperiam ipsa architecto unde iure provident explicabo nihil, voluptatum vero! Iste vero veniam molestiae voluptatem, quisquam similique dolorem et placeat commodi assumenda eligendi autem odio laboriosam eum, eaque voluptate fuga. Eius delectus quos minima nam, quae tenetur esse magnam doloremque recusandae ratione incidunt amet distinctio dignissimos quaerat temporibus, eum alias earum excepturi impedit sequi? Ducimus quisquam magni earum fugit iure ullam vitae sunt sapiente modi quia dolorem voluptas dolore, harum sed assumenda eveniet officiis, incidunt laboriosam. Omnis fugiat optio nam aspernatur quidem.</p>
+                <h4 id="item-2">Item 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut at similique enim sit autem corrupti asperiores sed aperiam ipsa architecto unde iure provident explicabo nihil, voluptatum vero! Iste vero veniam molestiae voluptatem, quisquam similique dolorem et placeat commodi assumenda eligendi autem odio laboriosam eum, eaque voluptate fuga. Eius delectus quos minima nam, quae tenetur esse magnam doloremque recusandae ratione incidunt amet distinctio dignissimos quaerat temporibus, eum alias earum excepturi impedit sequi? Ducimus quisquam magni earum fugit iure ullam vitae sunt sapiente modi quia dolorem voluptas dolore, harum sed assumenda eveniet officiis, incidunt laboriosam. Omnis fugiat optio nam aspernatur quidem.</p>
+                <h4 id="item-3">Item 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut at similique enim sit autem corrupti asperiores sed aperiam ipsa architecto unde iure provident explicabo nihil, voluptatum vero! Iste vero veniam molestiae voluptatem, quisquam similique dolorem et placeat commodi assumenda eligendi autem odio laboriosam eum, eaque voluptate fuga. Eius delectus quos minima nam, quae tenetur esse magnam doloremque recusandae ratione incidunt amet distinctio dignissimos quaerat temporibus, eum alias earum excepturi impedit sequi? Ducimus quisquam magni earum fugit iure ullam vitae sunt sapiente modi quia dolorem voluptas dolore, harum sed assumenda eveniet officiis, incidunt laboriosam. Omnis fugiat optio nam aspernatur quidem.</p>
+                <h5 id="item-3-1">Item 3-1</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut at similique enim sit autem corrupti asperiores sed aperiam ipsa architecto unde iure provident explicabo nihil, voluptatum vero! Iste vero veniam molestiae voluptatem, quisquam similique dolorem et placeat commodi assumenda eligendi autem odio laboriosam eum, eaque voluptate fuga. Eius delectus quos minima nam, quae tenetur esse magnam doloremque recusandae ratione incidunt amet distinctio dignissimos quaerat temporibus, eum alias earum excepturi impedit sequi? Ducimus quisquam magni earum fugit iure ullam vitae sunt sapiente modi quia dolorem voluptas dolore, harum sed assumenda eveniet officiis, incidunt laboriosam. Omnis fugiat optio nam aspernatur quidem.</p>
+                <h5 id="item-3-2">Item 3-2</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut at similique enim sit autem corrupti asperiores sed aperiam ipsa architecto unde iure provident explicabo nihil, voluptatum vero! Iste vero veniam molestiae voluptatem, quisquam similique dolorem et placeat commodi assumenda eligendi autem odio laboriosam eum, eaque voluptate fuga. Eius delectus quos minima nam, quae tenetur esse magnam doloremque recusandae ratione incidunt amet distinctio dignissimos quaerat temporibus, eum alias earum excepturi impedit sequi? Ducimus quisquam magni earum fugit iure ullam vitae sunt sapiente modi quia dolorem voluptas dolore, harum sed assumenda eveniet officiis, incidunt laboriosam. Omnis fugiat optio nam aspernatur quidem.</p>
+                <h4 id="item-4">Item 4</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo nam sed nobis tempora ipsam, eos est, consequatur veniam impedit deleniti, eius autem rerum? Excepturi eius nulla perspiciatis ab doloremque reiciendis dolores laboriosam hic nobis velit autem beatae natus fugit expedita nemo, officia pariatur ullam quidem sapiente repellendus ipsa, fugiat molestias odit! Voluptatum illum odit velit provident atque, ea laudantium quos, in molestias dignissimos quas dicta adipisci ipsam, culpa possimus. Eos illum incidunt error similique. Fugiat ut commodi eum ea aliquam omnis beatae esse nostrum, sunt reprehenderit. Nulla nihil, modi vitae totam iusto non itaque a soluta suscipit rerum neque accusamus?</p>
+                <h5 id="item-4-1">Item 4-1</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nisi ratione quos doloremque eaque corporis perferendis repellat eveniet non porro aliquam in delectus asperiores provident fuga, modi dignissimos exercitationem soluta odit voluptatum recusandae aliquid repudiandae alias molestias. Ipsam consequuntur modi tempora accusantium voluptates. Officiis tempora numquam facere magnam nostrum reiciendis illo culpa assumenda iusto ad voluptates recusandae earum vitae odio, veritatis debitis quisquam laboriosam eius aliquid fugit non repellat veniam suscipit! Quos adipisci consequuntur laudantium tempora magni enim assumenda repellat odit officiis modi iste quas incidunt eum cumque ducimus totam, quis pariatur, unde at quidem debitis fugiat laborum alias. Pariatur!</p>
+                <h5 id="item-4-2">Item 4-2</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nisi ratione quos doloremque eaque corporis perferendis repellat eveniet non porro aliquam in delectus asperiores provident fuga, modi dignissimos exercitationem soluta odit voluptatum recusandae aliquid repudiandae alias molestias. Ipsam consequuntur modi tempora accusantium voluptates. Officiis tempora numquam facere magnam nostrum reiciendis illo culpa assumenda iusto ad voluptates recusandae earum vitae odio, veritatis debitis quisquam laboriosam eius aliquid fugit non repellat veniam suscipit! Quos adipisci consequuntur laudantium tempora magni enim assumenda repellat odit officiis modi iste quas incidunt eum cumque ducimus totam, quis pariatur, unde at quidem debitis fugiat laborum alias. Pariatur!</p>
+            </div>
+        </div>
+    </div>
+    <script src="/5. Quinta Pasta/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
