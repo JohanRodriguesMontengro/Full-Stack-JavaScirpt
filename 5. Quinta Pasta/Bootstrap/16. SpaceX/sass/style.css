@@ -1,10 +1,6 @@
-// Colors
 @import url("./colors/colors.css");
-
-// Variables
 @import url("./variables/variables.css");
-
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
