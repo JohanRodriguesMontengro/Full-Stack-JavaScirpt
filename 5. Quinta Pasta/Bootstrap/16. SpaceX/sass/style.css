@@ -1,6 +1,0 @@
-@import url("./colors/colors.css");
-@import url("./variables/variables.css");
-body {
-  background-color: black;
-  color: white;
-}
