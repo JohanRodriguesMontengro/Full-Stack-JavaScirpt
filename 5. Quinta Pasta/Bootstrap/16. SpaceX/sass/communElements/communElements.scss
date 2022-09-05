@@ -1,3 +1,5 @@
+@import "../colors/colors.scss";
+@import "../variables/variables.scss";
 
 .header {
     font-size: 12px;
@@ -35,9 +37,14 @@
         text-decoration: none;
         color: white;
     
-        &hover {
+        &:hover {
+            transition: 500ms;
             color: $link-hover;
-        }
+            -webkit-transition: 500ms;
+            -moz-transition: 500ms;
+            -ms-transition: 500ms;
+            -o-transition: 500ms;
+}
     }
     .copyJ {
         color: $copy-color;

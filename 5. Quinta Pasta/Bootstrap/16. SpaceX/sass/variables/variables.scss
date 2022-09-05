@@ -1,1 +1,4 @@
-$padding-fixo: 20px 0px;
+body {
+    $padding-fixo: 20px 0px !global;
+    $padding-button: 15px 35px !global;
+}
