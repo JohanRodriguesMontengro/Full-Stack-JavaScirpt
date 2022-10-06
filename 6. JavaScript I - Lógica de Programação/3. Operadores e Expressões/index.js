@@ -7,7 +7,7 @@
 3 + 3 * 5
 (3 + 3) * 5
 
-let npme = `Isaac`
+let nome = `Isaac`
 let number = 5
 number = 3
 number = number + 3
