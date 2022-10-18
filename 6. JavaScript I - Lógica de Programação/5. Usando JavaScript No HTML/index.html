@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript no html</title>
+</head>
+<body>
+  <h1>JavaScript em uma pagina web</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam illum repellendus ad magni sequi distinctio pariatur tenetur ratione? Eius?</p>
+
+  <!-- Maneira "In Page" Não recomendado-->
+  <script>
+    let name = "Johan"
+    let x = 5
+    console.log(name)
+    console.error(5)
+  </script>
+  <!-- Maneira "Out Page" Recomendado-->
+  <script src="./scripts.js"></script>
+  <script src="./arquivo.js"></script>
+</body>
+</html>
