@@ -37,4 +37,6 @@ typeof console.error
 console.error("Algo deu errado")
 console.warn("Aviso")
 window.alert("Isso é um alerta")
+
 */
+"use strict";
