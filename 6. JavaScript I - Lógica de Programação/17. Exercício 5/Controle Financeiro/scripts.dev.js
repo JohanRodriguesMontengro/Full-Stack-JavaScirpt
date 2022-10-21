@@ -4,7 +4,7 @@ var AmountOfInitialMoney = prompt("Qual \xE9 a quantidade inicial de dinheiro");
 var PainelDeControle = "";
 var AdicionarDinheiro = 0;
 var RemoverDinheiro = 0;
-Continuar = 0;
+var Continuar = 0;
 
 do {
   PainelDeControle = prompt("\n  1- Adicionar Dinheiro\n  2- Remover Dinheiro\n  3- Sair\n  Quantidade de dinheiro: ".concat(AmountOfInitialMoney));
