@@ -1,12 +1,12 @@
 let Fila = []
-let Opcao = ``
+let Opção = ``
 
 do {
   let Pacientes = ``
   for (let Indice = 0; Indice < Fila.length; Indice++) {
     Pacientes += (Indice+1) + `º - ${Fila[Indice]}`
   }
-  Opcao = prompt(`Pacientes:
+  Opção = prompt(`Pacientes:
   ${Pacientes} 
   
   Escolha uma ação:
@@ -15,7 +15,7 @@ do {
   3. Sair`)
 
 
-  switch (Opcao) {
+  switch (Opção) {
     case `1`:
       const NovoPaciente = prompt(`Qual é o nome do paciente?`)
       Fila.push(NovoPaciente)
@@ -37,4 +37,4 @@ do {
     default:
       alert(`Opção inválida`)
   }
-}while(Opcao !== `3`)
+}while(Opção !== `3`)

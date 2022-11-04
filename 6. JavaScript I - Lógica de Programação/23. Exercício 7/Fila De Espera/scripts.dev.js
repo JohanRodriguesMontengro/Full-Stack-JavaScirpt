@@ -1,7 +1,7 @@
 "use strict";
 
 var Fila = [];
-var Opcao = "";
+var Opção = "";
 
 do {
   var Pacientes = "";
@@ -10,9 +10,9 @@ do {
     Pacientes += Indice + 1 + "\xBA - ".concat(Fila[Indice]);
   }
 
-  Opcao = prompt("Pacientes:\n  ".concat(Pacientes, " \n  \n  Escolha uma a\xE7\xE3o:\n  1. Novo Paciente\n  2. Consultar Paciente\n  3. Sair"));
+  Opção = prompt("Pacientes:\n  ".concat(Pacientes, " \n  \n  Escolha uma a\xE7\xE3o:\n  1. Novo Paciente\n  2. Consultar Paciente\n  3. Sair"));
 
-  switch (Opcao) {
+  switch (Opção) {
     case "1":
       var NovoPaciente = prompt("Qual \xE9 o nome do paciente?");
       Fila.push(NovoPaciente);
@@ -37,4 +37,4 @@ do {
     default:
       alert("Op\xE7\xE3o inv\xE1lida");
   }
-} while (Opcao !== "3");
+} while (Opção !== "3");
