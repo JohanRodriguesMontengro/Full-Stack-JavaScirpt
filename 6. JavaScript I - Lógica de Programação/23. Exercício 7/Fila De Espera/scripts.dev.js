@@ -1,22 +1,40 @@
 "use strict";
 
-var Continuar = true;
-var Number = 1;
-var ArrayNumber = "";
-var ArrayPacientes;
-var FilaDeEspera = "";
+var Fila = [];
+var Opcao = "";
 
 do {
-  ArrayNumber = [Number + "\xBA"];
-  ArrayPacientes = ["".concat(ArrayNumber, "Matheus")];
-  FilaDeEspera = prompt("Fila De Espera:\n  ".concat(ArrayPacientes, "\n  \n  1- Adicionar pacientes"));
-  FilaDeEspera = parseInt(FilaDeEspera);
+  var Pacientes = "";
 
-  if (FilaDeEspera === 1) {
-    Number++;
+  for (var Indice = 0; Indice < Fila.length; Indice++) {
+    Pacientes += Indice + 1 + "\xBA - ".concat(Fila[Indice]);
   }
 
-  Continuar = false;
-} while (Continuar === true);
+  Opcao = prompt("Pacientes:\n  ".concat(Pacientes, " \n  \n  Escolha uma a\xE7\xE3o:\n  1. Novo Paciente\n  2. Consultar Paciente\n  3. Sair"));
 
-console.log(FilaDeEspera);
+  switch (Opcao) {
+    case "1":
+      var NovoPaciente = prompt("Qual \xE9 o nome do paciente?");
+      Fila.push(NovoPaciente);
+      alert("O paciente: \"".concat(NovoPaciente, "\" entrou no final da fila"));
+      break;
+
+    case "2":
+      var PacienteConsultado = Fila.shift();
+
+      if (PacienteConsultado == undefined) {
+        alert("Sem mais pacientes na fila");
+      } else {
+        alert("O Paciente: \"".concat(PacienteConsultado, "\", foi atendido e foi embora"));
+      }
+
+      break;
+
+    case "3":
+      alert("Finalizando...");
+      break;
+
+    default:
+      alert("Op\xE7\xE3o inv\xE1lida");
+  }
+} while (Opcao !== "3");
