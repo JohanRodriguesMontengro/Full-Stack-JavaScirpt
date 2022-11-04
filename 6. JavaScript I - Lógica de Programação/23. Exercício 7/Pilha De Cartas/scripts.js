@@ -4,7 +4,7 @@ let CartasPuxadas = 0;
 do {
   Opção = prompt(`Cartas no baralho: ${Baralho.length}
   Cartas puxadas: ${CartasPuxadas}\n
-  1. Adiconar uma carta
+  1. Adicionar uma carta
   2. Puxar uma carta
   3. Sair`);
 

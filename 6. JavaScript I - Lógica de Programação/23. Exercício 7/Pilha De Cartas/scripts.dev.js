@@ -5,7 +5,7 @@ var Opção = "";
 var CartasPuxadas = 0;
 
 do {
-  Opção = prompt("Cartas no baralho: ".concat(Baralho.length, "\n  Cartas puxadas: ").concat(CartasPuxadas, "\n\n  1. Adiconar uma carta\n  2. Puxar uma carta\n  3. Sair"));
+  Opção = prompt("Cartas no baralho: ".concat(Baralho.length, "\n  Cartas puxadas: ").concat(CartasPuxadas, "\n\n  1. Adicionar uma carta\n  2. Puxar uma carta\n  3. Sair"));
 
   switch (Opção) {
     case "1":
