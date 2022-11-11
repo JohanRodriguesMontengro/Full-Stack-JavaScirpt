@@ -43,9 +43,9 @@ do {
   }
   else if (Option === 4) {
     function AreaDoTrapezio(BaseMaior, BaseMenor, altura) {
-      BaseMaior = parseFloat(prompt(`Informe a base maior do trapezio`))
-      BaseMenor = parseFloat(prompt(`Informe a base menor do trapezio`))
-      altura = parseFloat(prompt(`Informe a altura do trapezio`))
+      BaseMaior = parseFloat(prompt(`Informe a maior base do trapézio`))
+      BaseMenor = parseFloat(prompt(`Informe a menor base do trapézio`))
+      altura = parseFloat(prompt(`Informe a altura do trapézio`))
 
       let Soma = (BaseMaior + BaseMenor) * altura / 2
 

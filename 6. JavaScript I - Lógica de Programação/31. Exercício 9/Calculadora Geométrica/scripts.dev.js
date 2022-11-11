@@ -35,9 +35,9 @@ do {
     AreaDoQuadrado();
   } else if (Option === 4) {
     var AreaDoTrapezio = function AreaDoTrapezio(BaseMaior, BaseMenor, altura) {
-      BaseMaior = parseFloat(prompt("Informe a base maior do trapezio"));
-      BaseMenor = parseFloat(prompt("Informe a base menor do trapezio"));
-      altura = parseFloat(prompt("Informe a altura do trapezio"));
+      BaseMaior = parseFloat(prompt("Informe a maior base do trap\xE9zio"));
+      BaseMenor = parseFloat(prompt("Informe a menor base do trap\xE9zio"));
+      altura = parseFloat(prompt("Informe a altura do trap\xE9zio"));
       var Soma = (BaseMaior + BaseMenor) * altura / 2;
       alert("A \xE1rea do trap\xE9zio \xE9 de: ".concat(Soma));
     };
