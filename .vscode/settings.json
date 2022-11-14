@@ -77,7 +77,7 @@
       "YYYYYYMMDD"
     ],
     "liveServer.settings.port": 5501,
-    "cSpell.language": "en,pt,pt-BR",
+    "cSpell.language": "en,pt,pt-BR,en-US,lorem,en-GB",
     "coffeebreak.emails": [
         "ti.johan@ti7.com.br"
     ],
@@ -89,5 +89,8 @@
     "coffeebreak.sync": {
         "command": "coffeebreak.syncDisabled"
     },
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "cSpell.enableFiletypes": [
+      "bat"
+    ]
 }
