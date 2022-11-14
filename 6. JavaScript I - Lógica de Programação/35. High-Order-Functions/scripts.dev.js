@@ -1,7 +1,7 @@
 "use strict";
 
 function Calcular(a, b, Operacao) {
-  console.log("Relizando uma opera\xE7\xE3o");
+  console.log("Realizando uma opera\xE7\xE3o");
   var Resultado = Operacao(a, b); // Somar(a, b)
 
   return Resultado;

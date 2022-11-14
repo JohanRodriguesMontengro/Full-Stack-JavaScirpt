@@ -1,5 +1,5 @@
 function Calcular(a, b, Operacao) {
-  console.log(`Relizando uma operação`)
+  console.log(`Realizando uma operação`)
   const Resultado = Operacao(a, b) // Somar(a, b)
   return Resultado
 }
