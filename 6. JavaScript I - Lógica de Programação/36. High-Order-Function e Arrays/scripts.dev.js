@@ -68,4 +68,12 @@ var racas = personagens.reduce(function (valorAcumulado, personagem) {
     valorAcumulado[personagem.raca] = [personagem];
   }
 }, {});
-console.log(racas);
+console.log(racas); // Sort
+// 1, 2, 4, 7, 3, 0
+// Crescente
+
+var personagensOrdenados = personagens.slice().sort(function (a, b) {
+  return a.nivel - b.nivel; // Decrescente = return b.nivel - a.nivel
+});
+console.log(personagens);
+console.log(personagensOrdenados);

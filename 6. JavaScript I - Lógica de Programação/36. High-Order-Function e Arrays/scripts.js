@@ -55,3 +55,14 @@ const racas = personagens.reduce(function (valorAcumulado, personagem) {
 }, {})
 
 console.log(racas)
+
+// Sort
+
+// 1, 2, 4, 7, 3, 0
+// Crescente
+const personagensOrdenados = personagens.slice().sort(function (a, b) {
+  return a.nivel - b.nivel // Decrescente = return b.nivel - a.nivel
+})
+
+console.log(personagens)
+console.log(personagensOrdenados)
